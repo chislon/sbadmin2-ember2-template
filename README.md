@@ -26,10 +26,10 @@ The app creates a folder for the app 'client' and uses node.js. Please make sure
 node is installed, and that there is no pre-existing and conflicting 
 package.json in the directory where setup.sh is run.
 
-1) Run the 'sh setup.sh' from the root directory
-2) Installation will commence, after which ember will start the app on the
+1. Run the 'sh setup.sh' from the root directory
+2. Installation will commence, after which ember will start the app on the
    default port
-3) (Optional) Cleanup and remove the file 'setup.sh' from the root 
+3. (Optional) Cleanup and remove the file 'setup.sh' from the root 
    directory and the folder 'client-prebuilts'
 
 # Running
