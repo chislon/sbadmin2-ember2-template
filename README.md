@@ -7,7 +7,7 @@ front-end web application.
 This comes with a working 'tables.html' sample file baked into the default 
 'index.html' as a sample. 
 
-See public workspace an: https://ide.c9.io/chislon/sbadmin2-ember2-template
+See public workspace at: https://ide.c9.io/chislon/sbadmin2-ember2-template
 
 # Caveats
 
@@ -15,16 +15,18 @@ See public workspace an: https://ide.c9.io/chislon/sbadmin2-ember2-template
 * Works on Cloud9 IDE and Linux distributions
 * Datatables responsive files originally in the SBadmin2 template are
   not imported
-* watchman not installed by default
-* If the setup.sh shell script fails to complete, it is not smart to recovery 
- by its own, so you may have to run each step by itself. Please have a 
-  good working internet connection. 
+* Watchman not installed by default
+* If the setup.sh shell script fails to complete, it is not smart to recover 
+  by its own, so you may have to run each step by itself. Please have a 
+  good working Internet connection so it can use npm and bower to pull down the 
+  files successfuly. 
 
 # Setup
 
 The app creates a folder for the app 'client' and uses node.js. Please make sure
-node is installed, and that there is no pre-existing and conflicting 
-package.json in the directory where setup.sh is run.
+node is installed, the client folder does not already exist, and that there 
+is no pre-existing and conflicting package.json in the directory where setup.sh 
+is run.
 
 1. Run the 'sh setup.sh' from the root directory
 2. Installation will commence, after which ember will start the app on the
@@ -37,22 +39,13 @@ package.json in the directory where setup.sh is run.
 For future runs, navigate into the client folder and run 'ember server'
 
 To add additional demo templates from sbadmin2, you will need to modify the 
-css and js imports of the html files. You may also need to add additional lines 
-to ember-cli-build.js.
-
-# What this does
-
-* pulls SB2admin into the vendor folder
-* setup a working ember-cli-build.js to integrate required css and js into 
-  vendor files
-* uses the SB2admin tables as an example, having replaced css and js imports to 
-  the vendor css and js Ember JS generated files
-* installs pre-requisite for working with LESS (not actually used here)
+css and js import paths in the html files. You may also need to add lines 
+to ember-cli-build.js. 
 
 # LESS
 
 ember-cli-less is already included as a node module. Edit the blank file 
-'client/app/styles/app.less' to use it. 
+'client/app/styles/app.less' to use it. This isn't actually used. 
 
 # Credits
 
