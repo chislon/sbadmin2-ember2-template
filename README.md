@@ -49,12 +49,10 @@ ember-cli-less is already included as a node module. Edit the blank file
 
 # Credits
 
-* [Mithrilhall](http://discuss.emberjs.com/users/Mithrilhall) for answering in 
-* [What’s the suggested way to add bootstrap for Ember 2.0.1](http://discuss.emberjs.com/t/whats-the-suggested-way-to-add-bootstrap-for-ember-2-0-1/8691)
+* [Mithrilhall](http://discuss.emberjs.com/users/Mithrilhall) for answering in [What’s the suggested way to add bootstrap for Ember 2.0.1](http://discuss.emberjs.com/t/whats-the-suggested-way-to-add-bootstrap-for-ember-2-0-1/8691)
 * [EmberJS](http://emberjs.com/)
 * [SBadmin2](http://startbootstrap.com/template-overviews/sb-admin-2/)
 
 # Notes
 
-There are no further plans for this project, I created this so I don't forget 
-what I had to struggle through to get this working. 
+There are no further plans for this project
